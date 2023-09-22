@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Colors</title>
+		<style>
+			/*body {
+				width: 100%;
+				padding: 10%;
+			}*/
+			.h2 {
+				font-size: 20px;
+				font-weight: 600;
+				margin-top: 20px;
+				margin-bottom: 10px;
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+	<body class="container mx-auto">
+		<!-- Default colors -->
+		<!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
+
+		<!-- Text Colors -->
+		<p class="text-black">Tailwind is awesome</p>
+		<p class="text-red-500">Tailwind is awesome</p>
+		<p class="text-yellow-800">Tailwind is awesome</p>
+		<p class="text-purple-200">Tailwind is awesome</p>
+		<p class="text-blue-500">Tailwind is awesome</p>
+
+		<!-- Background Colors -->
+		<h2 class="h2">Background Colors</h2>
+		<p class="bg-blue-500 text-yellow-400">Tailwind is awesome</p>
+		<p class="bg-yellow-300">Tailwind is awesome</p>
+		<p class="bg-slate-200 text-red-600">Tailwind is awesome</p>
+		<p class="bg-green-800">Tailwind is awesome</p>
+
+		<!-- Text Underline -->
+		<h2 class="h2">Text Underline</h2>
+		<p class="underline decoration-red-500">Tailwind is awesome</p>
+		<p class="underline decoration-emerald-700">Tailwind is awesome</p>
+		<p class="underline decoration-yellow-800">Tailwind is awesome</p>
+
+		<!-- Border Colors -->
+		<h2 class="h2">Border Colors</h2>
+		<input type="text" class="border border-blue-500" />
+		<input type="text" class="border border-green-500" />
+		<input type="text" class="border border-orange-500" />
+		<!-- Divide Colors -->
+		<h2 class="h2">Divide Colors</h2>
+		<div class="divide-y divide-green-300">
+			<div>Item 1</div>
+			<div>Item 2</div>
+			<div>Item 3</div>
+			<div>Item 4</div>
+		</div>
+		<!-- Outline Colors -->
+		<h2 class="h2">Outline Colors</h2>
+		<button class="outline outline-red-500">Button</button>
+		<button class="outline outline-blue-400">Button</button>
+		<button class="outline outline-green-300">Button</button>
+		<button class="outline outline-yellow-200">Button</button>
+
+		<!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)-->
+		<h2 class="h2">Box Shadow Colors</h2>
+		<div class="shadow-lg bg-cyan-500 shadow-cyan-500">Subscribe</div>
+		<button class="shadow-lg bg-cyan-500 shadow-purple-500">Subscribe</button>
+		<button class="shadow-lg bg-cyan-500 shadow-purple-500/50">
+			Subscribe
+		</button>
+
+		<!-- Accent Colors -->
+		<h2 class="h2">Accent Colors</h2>
+		<input type="checkbox" class="accent-purple-500" checked />
+		<input type="checkbox" class="accent-blue-500" checked />
+
+		<!-- Arbitrary Colors -->
+		<h2 class="h2">Arbitrary Colors</h2>
+		<div class="bg-[#427fab]">Hello</div>
+		<div class="bg-[rgb(255,0,0)]">Hello</div>
+	</body>
+</html>

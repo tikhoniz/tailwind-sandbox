@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Interactivity</title>
+	</head>
+	<body>
+		<!-- Hover State Styling -->
+		<button
+			class="bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-orange-500"
+		>
+			Submit
+		</button>
+		<!-- Focus State Styling -->
+		<button
+			class="bg-black text-white py-3 px-5 rounded-lg m-3 focus:bg-green-500"
+		>
+			Submit
+		</button>
+		<!-- Active State Styling -->
+		<button
+			class="bg-black text-white py-3 px-5 rounded-lg m-3 active:bg-yellow-500"
+		>
+			Submit
+		</button>
+		<!-- Styling based on parent state -->
+		<a
+			href=""
+			class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500"
+		>
+			<h3 class="group-hover:text-white">Card Title</h3>
+			<p class="group-hover:text-white">This is card text</p>
+		</a>
+		<!-- Pseudo Classes -->
+		<ul>
+			<li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+				Card 1
+			</li>
+			<li class="first:bg-red-500 even:bg-green-500 odd:bg-orange-500">
+				Card 2
+			</li>
+			<li class="first:bg-red-500 even:bg-green-500 odd:bg-orange-500">
+				Card 3
+			</li>
+			<li class="first:bg-red-500 even:bg-green-500 odd:bg-orange-500">
+				Card 4
+			</li>
+			<li class="first:bg-red-500 even:bg-green-500 odd:bg-orange-500">
+				Card 5
+			</li>
+			<li class="first:bg-red-500 even:bg-green-500 odd:bg-orange-500">
+				Card 6
+			</li>
+			<li class="first:bg-red-500 even:bg-green-500 odd:bg-orange-500">
+				Card 7
+			</li>
+			<li class="first:bg-red-500 even:bg-green-500 odd:bg-orange-500">
+				Card 8
+			</li>
+		</ul>
+		<!-- Appearance -->
+		<!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+		<select class="appearance-none">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</select>
+
+		<br />
+		<!-- Cursor -->
+		<button
+			class="bg-black text-white py-3 px-5 rounded-lg m-3 active:bg-yellow-500 cursor-not-allowed"
+		>
+			Submit
+		</button>
+		<button
+			class="bg-red-500 text-white py-3 px-5 rounded-lg m-3 active:bg-yellow-500 cursor-wait"
+		>
+			Submit
+		</button>
+		<!-- Resize -->
+
+		<!-- User Select -->
+		<div class="select-none">Lorem, ipsum dolor.</div>
+		<div class="select-text">Lorem, ipsum dolor.</div>
+		<div class="select-all">Lorem, ipsum dolor.</div>
+		<div class="select-auto">Lorem, ipsum dolor.</div>
+		<div class="select-none">Lorem, ipsum dolor.</div>
+		<a href="#item" class="block my-6 p-2 border border-green-500"
+			>Go to Item</a
+		>
+		<!-- Smooth Scroll Example -->
+		<p>
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque error
+			corrupti eos et dolorem debitis enim unde molestiae sed, suscipit
+			explicabo voluptatem earum sequi at ut aliquid odio. Laudantium excepturi
+			corrupti cumque quaerat dolore fugiat adipisci porro quas rem accusantium!
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolore
+			veniam, quibusdam laborum omnis dolor, quaerat maiores eius voluptas,
+			consequuntur est consectetur. Voluptas necessitatibus ullam architecto
+			expedita, excepturi tenetur dolor! Lorem ipsum dolor sit amet consectetur
+			adipisicing elit. Velit eius ratione consequuntur reiciendis eligendi
+			quam. Neque optio illo repellat eum, dignissimos laborum ipsam facere
+			dolor minima sed vero cupiditate eaque sint quibusdam officiis
+			exercitationem! Quia optio, ad autem fugiat cupiditate ipsa architecto
+			voluptate nostrum laboriosam excepturi sint doloribus quibusdam tenetur
+			quae, est officiis pariatur esse aut aliquid illo dolores totam natus
+			saepe! Repellendus error, distinctio repellat nobis animi incidunt omnis
+			quam adipisci consectetur dolores suscipit, aut nihil modi sequi aliquid
+			at, corrupti maiores alias corporis? Tempora architecto iste saepe
+			reiciendis, veniam aliquam accusamus exercitationem perspiciatis sequi
+			iure numquam iusto quos natus necessitatibus blanditiis ipsam quisquam et
+			commodi unde quam quia. Fugiat molestiae laboriosam quos, eius culpa,
+			atque aliquid, earum aspernatur alias ipsam officiis. Molestiae
+			voluptatibus architecto corporis voluptatem harum debitis quos provident
+			error, ipsa quas, necessitatibus culpa aliquid cumque ab nulla illo ipsam
+			odio minima asperiores voluptatum beatae impedit aperiam amet aut. Libero
+			voluptas fugit minus nihil et, molestiae fugiat, nesciunt vel unde saepe
+			mollitia maiores laboriosam cum recusandae repudiandae aliquam similique
+			qui eveniet excepturi! Debitis eius, quidem aut blanditiis veniam
+			praesentium nemo qui, fugit perspiciatis quae earum labore facilis.
+		</p>
+		<div id="item" class="font-bold text-red-500">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+			voluptatum possimus, animi minima eaque odit molestiae exercitationem sint
+			obcaecati saepe voluptatibus quaerat, sit, eum reprehenderit vero nisi
+			doloribus quos? Animi sit, accusamus eum commodi excepturi omnis eligendi
+			aliquam odio voluptatem quos officia. Reiciendis nisi sapiente hic autem
+			explicabo doloremque enim.
+		</div>
+	</body>
+</html>
+
+<!-- Cursor
+  cursor-auto	          cursor: auto;
+  cursor-default	      cursor: default;
+  cursor-pointer	      cursor: pointer;
+  cursor-wait	          cursor: wait;
+  cursor-text	          cursor: text;
+  cursor-move	          cursor: move;
+  cursor-help	          cursor: help;
+  cursor-not-allowed	  cursor: not-allowed;
+  cursor-none	          cursor: none;
+  cursor-context-menu	  cursor: context-menu;
+  cursor-progress	      cursor: progress;
+  cursor-cell	          cursor: cell;
+  cursor-crosshair	    cursor: crosshair;
+  cursor-vertical-text	cursor: vertical-text;
+  cursor-alias	        cursor: alias;
+  cursor-copy	          cursor: copy;
+  cursor-no-drop	      cursor: no-drop;
+  cursor-grab	          cursor: grab;
+  cursor-grabbing	      cursor: grabbing;
+  cursor-all-scroll	    cursor: all-scroll;
+  cursor-col-resize	    cursor: col-resize;
+  cursor-row-resize	    cursor: row-resize;
+  cursor-n-resize	      cursor: n-resize;
+  cursor-e-resize	      cursor: e-resize;
+  cursor-s-resize	      cursor: s-resize;
+  cursor-w-resize	      cursor: w-resize;
+  cursor-ne-resize	    cursor: ne-resize;
+  cursor-nw-resize	    cursor: nw-resize;
+  cursor-se-resize	    cursor: se-resize;
+  cursor-sw-resize	    cursor: sw-resize;
+  cursor-ew-resize	    cursor: ew-resize;
+  cursor-ns-resize	    cursor: ns-resize;
+  cursor-nesw-resize	  cursor: nesw-resize;
+  cursor-nwse-resize	  cursor: nwse-resize;
+  cursor-zoom-in	      cursor: zoom-in;
+  cursor-zoom-out	      cursor: zoom-out;
+-->
